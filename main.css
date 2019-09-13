@@ -1,0 +1,276 @@
+@font-face{font-family:'Poppins';src:url("Fonts/Poppins/Poppins-SemiBold.woff");src:local("☺"),url("Fonts/Poppins/Poppins-SemiBold.woff") format("woff");
+    
+}
+
+@font-face{font-family:'Open Sans';src:url("Fonts/OpenSans/OpenSans-Regular.woff");}
+@font-face{font-family:'Monserat';src:url("Fonts/Monserat/Montserrat-Black.woff");}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+h1,h2{
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    color: crimson;
+}
+
+p{
+    font-family: "Open Sans";
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    background-color: #fffdea;
+}
+
+.header{
+    border:1px crimson solid;
+    background: #b7003d;
+    height: 70px;
+    position: relative;
+}
+
+.logo{
+    width:45px;
+   position: absolute;
+   left: 80px;
+   top: 13.5px;
+   margin: 0 auto 0 auto;
+}
+
+.sect{
+    margin: 20px;
+}
+
+.post-img{
+    width:100%;
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+.post-1,.post-2,.post-3,.post-4{
+    padding:10px;
+    margin: 30px;
+}
+
+small{
+    color: rgb(73, 73, 73);
+    font-weight: 530;
+}
+
+.search{
+    margin-top:70px;
+    margin-bottom:50px;
+    text-align: center;
+    position: relative;
+}
+
+.search input[type="search"]{
+    border:1px #ccc solid;
+    padding: 10px;
+    width: 50%;
+    outline: none;
+    text-align: center;
+}
+
+.search label{
+    background: rgb(221, 217, 217);
+    padding: 10.5px;
+    right: 5px;
+    top: 2px;
+    border-radius: 3px;
+    color: rgb(105, 101, 101);
+}
+
+.subscribe{
+    text-align: center;
+    border: 5px crimson solid;
+    width: 59%;
+    /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;*/
+    margin: auto;
+    border-radius: 10px;
+    position: relative;
+}
+
+.main-sub{
+    background: #010118;
+    padding: 30px;
+}
+
+.subMe{
+    width:230px;
+    margin-bottom: 18px;
+}
+
+.sub-text{
+    color: #fff;
+}
+
+form, .input1{
+    background: #9e0229;
+    padding: 30px;
+    height:150px;
+}
+
+input[type="email"],input[type="submit"]{
+    position: absolute;
+    bottom: 70px;
+    left:50px;
+    padding: 10px;
+    border: 1px black solid;
+    outline: none;
+}
+
+input[type="submit"]{
+    border:none;
+    background: black;
+    color:#fff;
+    height:37px;
+    text-transform: capitalize;
+}
+
+.footer{
+    margin-top:80px;
+    padding: 30px;
+    background: #3c3d41;
+}
+
+.footer-head{
+    background: -webkit-linear-gradient( #ff9966, #ff5e62);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bolder;
+    font-size: 30px;
+    font-family: "Monserat"
+}
+
+.footer-text{
+    font-family: cursive;
+    font-style: italic;
+    color: #ccc;
+    font-size: 19px;
+}
+
+.copyright{
+    font-family: cursive;
+    font-style: italic;
+    font-size: 15px;
+}
+
+.footer-nav{
+    margin-top: 30px;
+}
+
+.navStyle{
+    list-style: none;
+}
+
+.navStyle li{
+    padding: 10px;
+    font-family: "Poppins";
+    font-weight: 200;
+    color: wheat;
+}
+
+.footer-socials{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.main-footer{
+    background: black;
+    text-align: center;
+    position: relative;
+    height: 75px;
+}
+
+.fa-facebook-f,
+.fa-twitter,
+.fa-instagram{
+    margin: 15px;
+    border-radius: 100%;
+    border:3px rgb(48, 46, 46) solid;
+    padding: 8px ;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.fa-youtube{
+    margin: 15px;
+    border-radius: 100%;
+    border:3px rgb(48, 46, 46) solid;
+    padding: 8px;
+    text-align: center;   
+    font-size: 14.3px;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+}
+
+.fa-facebook-f{
+    background: #3b5998;
+    color:#fff;
+}
+
+.fa-instagram{
+    color:#fff;
+    background: #e1306c;
+    padding-bottom: 21px;
+}
+.fa-twitter{
+    color:#fff;
+    background: #00acee;
+    padding-bottom: 21px;
+}
+.fa-youtube{
+    color:#fff;
+    background: #ff0000;
+}
+
+.fa-pinterest{
+    color: crimson;
+    position: absolute;
+    top: 20px;
+    font-size: 28px;
+    text-align: center;
+}
+.main-text{
+    color:grey;
+    position: absolute;
+    top: 50px;
+    left: 130px;
+}
+
+@media screen and (min-width:375px){
+    .main-text{
+        left:110px;
+    }
+
+    .subscribe{
+        width:85%;
+    }
+
+    .related{
+    margin: 0 0 0 70px;
+    flex-wrap: wrap;
+    }
+
+    .post-1,.post-2,.post-3,.post-4{
+        padding:0px;
+        margin: 20px;
+    }
+}
